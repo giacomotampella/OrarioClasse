@@ -63,10 +63,49 @@
 				left: 1160px;*/
 			} 
 		</style>
+		<!--RESPONSIVE SCRIPT
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Your site description." />
+		<title>Your page title</title>
+		<link href="responsive.min.css" rel="stylesheet" />
+		end responsive script-->
 	</head>
 	<body style="background-color: #98c1d9">
 	<div class="c">
 		<a>©GiacomoTampella</a>
+		<!--<p id="demo">day</p>-->
+		<script>
+			function myFunction() {
+				var d = new Date();
+				var n = d.getDay()
+				document.getElementById("demo").innerHTML = n;
+				console.log("n")
+			}
+			if (new Date().getDay() == 0) {
+				window.open('https://giacomotampella.github.io/OrarioClasse/domenica.html', 'location=yes,height=570,width=520,scrollbars=yes,status=yes');
+			} 
+			if (new Date().getDay() == 1) {
+				window.open('https://giacomotampella.github.io/OrarioClasse/lunedi.html', 'location=yes,height=570,width=520,scrollbars=yes,status=yes');
+			}
+			if (new Date().getDay() == 2) {
+				window.open('https://giacomotampella.github.io/OrarioClasse/martedi.html', 'location=yes,height=570,width=520,scrollbars=yes,status=yes');
+			}
+			if (new Date().getDay() == 3) {
+				window.open('https://giacomotampella.github.io/OrarioClasse/mercoledi.html', 'location=yes,height=570,width=520,scrollbars=yes,status=yes');
+			}
+			if (new Date().getDay() == 4) {
+				window.open('https://giacomotampella.github.io/OrarioClasse/giovedi.html', 'location=yes,height=570,width=520,scrollbars=yes,status=yes');
+			}
+			if (new Date().getDay() == 5) {
+				window.open('https://giacomotampella.github.io/OrarioClasse/venerdi.html', 'location=yes,height=570,width=520,scrollbars=yes,status=yes');
+			}	
+			if (new Date().getDay() == 6) {
+				window.open('https://giacomotampella.github.io/OrarioClasse/sabato.html', 'location=yes,height=570,width=520,scrollbars=yes,status=yes');
+			}			
+			
+		</script>
 	</div>
 	<h1>ORARIO 4BSA</h1>
 		<table style="width:70%">
@@ -135,5 +174,7 @@
 			</tr>
 		</table></br></br></br>
 <!--<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe0Qqem7kDkBUflWZf6ZeSmhtZiSn4pK7B-5uUJbJjubkjyhg/viewform?embedded=true" width="640" height="840" frameborder="0" marginheight="0" marginwidth="0">Caricamento…</iframe>-->
+		<!--<script src="vendor/jquery-2.1.4.min.js"></script>
+		<script src="responsive.min.js"></script>-->
 	</body>
 </html>
